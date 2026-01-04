@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (DON'T upload large datasets)
+*.csv
+*.json
+*.h5
+*.pkl
+*.pickle
+satellite_images/
+data/
+datasets/
+
+# Model files (too large for GitHub)
+*.pth
+*.pt
+*.h5
+*.ckpt
+models/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Specific to your project
+mapbox_api_key.txt
+.env
